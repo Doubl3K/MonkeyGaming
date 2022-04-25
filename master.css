@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+  color: white;
+  margin: 0%;
+}
+
+@@font-face {
+  font-family: "Plaguard";
+  src: url("Fonts/Plaguard-ZVnjx.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.branding{
+  display: flex;
+  align-items: center;
+  float: left;
+
+  flex-direction: column;
+  background-image: url("Pictures/bgp.jpg");
+  -webkit-background-size: 100%;
+  background-repeat: no-repeat;
+  max-width: 33%;
+  height: 100vh;
+}
+
+.branding img{
+  max-width: 50%;
+
+}
+
+.branding h1{
+  font-size: 3em;
+  color: red;
+  font-family: "Plaguard";
+  font-style: normal;
+}
+ .contentContainer{
+   display: flex;
+   padding: 20px;
+ }
+
+.leftForm{
+  margin-right: 5em;
+  margin-left: 1em;
+}
+
+.formContainer{
+  background-color: rgb(61, 61, 61);
+  margin-top: 300px;
+  box-shadow: 0px 2px 10px rgb(92, 92, 91);
+}
+
+.formContainer h1{
+  margin-right: 5em;
+}
+
+.formContainer input[type=submit]{
+  background-color: rgb(42, 150, 29);
+  color: white;
+  margin-left: 5em;
+  margin-top: 3%;
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: solid 10px rgb(42, 150, 29);
+  border-radius: 10px;
+}
