@@ -4,7 +4,7 @@ body{
   margin: 0%;
 }
 
-@@font-face {
+@font-face {
   font-family: "Plaguard";
   src: url("Fonts/Plaguard-ZVnjx.otf");
   font-weight: normal;
@@ -18,7 +18,7 @@ body{
 
   flex-direction: column;
   background-image: url("Pictures/bgp.jpg");
-  -webkit-background-size: 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   max-width: 33%;
   height: 100vh;
